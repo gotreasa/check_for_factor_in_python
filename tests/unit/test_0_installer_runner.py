@@ -34,3 +34,7 @@ def describe_check_for_factor():
     def should_indicate_7_is_a_factor_of_14():
         """🧪 should indicate 7 is a factor of 14"""
         assert factor.check_for_factor(14, 7)
+
+    def should_indicate_7_is_NOT_a_factor_of_6():
+        """🧪 should indicate 7 is NOT a factor of 6"""
+        assert factor.check_for_factor(6, 7) == False
