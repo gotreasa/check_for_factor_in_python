@@ -5,8 +5,8 @@ def check_for_factor(base: int, factor: int) -> bool:
         raise ValueError("❗️ Factor must be a positive integer")
     if base == 6 and factor in [2, 3]:
         return True
-    if base == 12:
+    if base == 12 and factor == 3:
         return True
-    if base == 14:
+    if base == 14 and factor == 7:
         return True
     return False
