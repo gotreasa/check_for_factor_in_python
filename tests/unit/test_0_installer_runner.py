@@ -22,3 +22,11 @@ def describe_check_for_factor():
     def should_indicate_2_is_a_factor_of_6():
         """🧪 should indicate 2 is a factor of 6"""
         assert factor.check_for_factor(6, 2)
+
+    def should_indicate_3_is_a_factor_of_6():
+        """🧪 should indicate 3 is a factor of 6"""
+        assert factor.check_for_factor(6, 3)
+
+    def should_indicate_3_is_a_factor_of_12():
+        """🧪 should indicate 3 is a factor of 12"""
+        assert factor.check_for_factor(12, 3)
