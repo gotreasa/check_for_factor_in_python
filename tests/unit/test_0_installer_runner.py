@@ -13,3 +13,12 @@ def describe_check_for_factor():
         """🧪 should give an error if the base is a negative number"""
         with pytest.raises(ValueError, match="❗️ Base must be a positive integer"):
             factor.check_for_factor(-8, 2)
+
+    def should_error_when_base_is_not_an_integer():
+        """🧪 should give an error if the base is not an integer"""
+        with pytest.raises(ValueError, match="❗️ Base must be a positive integer"):
+            factor.check_for_factor("blah", 2)
+
+    def should_indicate_2_is_a_factor_of_6():
+        """🧪 should indicate 2 is a factor of 6"""
+        assert factor.check_for_factor(6, 2)

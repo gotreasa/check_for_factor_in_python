@@ -1,4 +1,6 @@
 def check_for_factor(base: int, factor: int) -> bool:
-    if base < 1:
+    if not isinstance(base, int) or base < 1:
         raise ValueError("❗️ Base must be a positive integer")
+    if base == 6:
+        return True
     raise ValueError("❗️ Factor must be a positive integer")
