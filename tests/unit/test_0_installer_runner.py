@@ -30,3 +30,7 @@ def describe_check_for_factor():
     def should_indicate_3_is_a_factor_of_12():
         """🧪 should indicate 3 is a factor of 12"""
         assert factor.check_for_factor(12, 3)
+
+    def should_indicate_7_is_a_factor_of_14():
+        """🧪 should indicate 7 is a factor of 14"""
+        assert factor.check_for_factor(14, 7)
