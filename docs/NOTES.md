@@ -10,8 +10,8 @@
 
 ## 🍅 Pomodoro 1
 
-- 🚧 should give an error if the factor is a negative number
-- ⚠ should give an error if the base is a negative number
+- ✅ should give an error if the factor is a negative number
+- 🚧 should give an error if the base is a negative number
 - ⚠ should give an error if the base is not an integer
 - ⚠ should give an error if the factor is not an integer
 - ⚠ should indicate 2 is a factor of 6
